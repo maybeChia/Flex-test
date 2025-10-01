@@ -9,7 +9,8 @@ body {
 }
 
 .child {
-    width: 200px;
+    /* width: 200px; */
+    min-width: 100px;
 }
 
 .height-100 {
@@ -24,14 +25,27 @@ body {
     height: 300px;
 }
 
+.order{
+    order: -1;
+}
+
+.grow{
+    flex-grow: 1;
+}
+
+.double-grow{
+    flex-grow: 2;
+}
+
 .parent {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    height: 600px;
-    align-content: center;
+    justify-content: center;
+    /* height: 300px; */
+    /* align-content: center; */
     gap: 20px;
-    row-gap: 25px;
+    /* row-gap: 20px; */
+    align-items: center;
     
 }
